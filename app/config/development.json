@@ -1,0 +1,24 @@
+{
+	"host":"http://localhost:3000",
+	"dbURI":"mongodb://chatcatuser:zxcvbn123456@ds249992.mlab.com:49992/mychatcatdb_rishav",
+	"sessionSecret":"catscanfly",
+	"fb":{
+		"clientID":"2131445636951097",
+		"clientSecret":"71e951155a89f0d3229e57c9f0256b7b",
+		"callbackURL":"https://508e2987.ngrok.io/auth/facebook/callback",
+		"enableProof":true,
+		"profileFields":["id","displayName","photos"]
+	},
+	"twitter":{
+		"consumerKey":"QACr5xhCQJS8MUFKt0LpKKRHM",
+		"consumerSecret":"TrZR2nK1OYuEeppkD7Uyb0KXsiosmGQermhcVtn053VRVBie39",
+		"callbackURL":"https://508e2987.ngrok.io/auth/twitter/callback",
+		"profileFields":["id","displayName","photos"]
+	},
+	"redis":{
+		"host":"127.0.0.1",
+		"port":6739,
+		"password":""
+	}
+
+}
